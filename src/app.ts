@@ -1,5 +1,6 @@
 // 运行时配置
 import { qiankun } from '@/config/micro';
+import { request } from '@/config/request';
 import { menuData } from '@/config/routes';
 import { RunTimeLayoutConfig } from '@umijs/max';
 
@@ -40,4 +41,4 @@ export const layout: RunTimeLayoutConfig = ({ initialState }) => {
   };
 };
 
-export { qiankun };
+export { qiankun, request };
